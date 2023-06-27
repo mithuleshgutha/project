@@ -7,7 +7,7 @@ import Piechart from './Piechart';
 function Dashboard() {
   return (
     <>
-      <div className='backColor'>
+      <div className=''>
         <div className='x d-flex justify-content-center'>Dashboard</div>
         <div className=''>
           <div className='p row mr-0'>
