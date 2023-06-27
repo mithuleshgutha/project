@@ -3,6 +3,7 @@ import './pages.css';
 import  InvoiceData from './InvoiceData';
 import QuoteData from './QuoteData';
 import OfferData from './OfferData';
+import Piechart from './Piechart';
 function Dashboard() {
   return (
     <>
@@ -100,15 +101,26 @@ function Dashboard() {
               </div>
             </div>
 
-            <div className='invoice col col-md-10 col-lg col-sm-12 shadow'>
-              <div className='text-center'>Customer Pre</div>
+            <div className='customer-pre col col-md-10 col-lg-2 col-sm-12 shadow'>
+              <div className='text-center pt-3'>Customer Preview</div>
               <hr />
-              <span>
-                <span className='border-right px-2'>
-                  customer preview
-                </span>
-                <span className='px-2'>money</span>
-              </span>
+              <div><Piechart /></div>
+              <div className='text-center'>New Customer this Month</div>
+              <hr />
+              <div className='text-center'>Active Customers</div>
+            </div>
+          </div>
+        </div>
+        <div className=''>
+          <div className='p row mr-0'>
+            <div className='invoice col col-md-10 col-lg col-sm-12 shadow'>
+              <div className='py-4'>Recent Invoice</div>
+              
+              
+            </div>
+            <div className='invoice col col-md-10 col-lg col-sm-12 shadow'>
+              <div className='py-4'>Recent Quotes</div>
+              
             </div>
           </div>
         </div>
