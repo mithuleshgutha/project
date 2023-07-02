@@ -7,10 +7,10 @@ import Piechart from './Piechart';
 function Dashboard() {
   return (
     <>
-      <div className=''>
+      <div className='mx-5'>
         <div className='x d-flex justify-content-center'>Dashboard</div>
         <div className=''>
-          <div className='p row mr-0'>
+          <div className='p row '>
             <div className='invoice col col-md-5 col-lg col-sm-12 shadow'>
               <div className='text-center'>Invoice</div>
               <hr />
@@ -56,7 +56,7 @@ function Dashboard() {
         {/* 2nd row */}
         <div className=''>
           <div className='p row mr-0'>
-            <div className='invoice col col-md-10 col-lg-9 col-sm-12 shadow'>
+            <div className='invoice col col-md-10 col-lg col-sm-12 shadow'>
               <div className='k row p-3'>
                 <div className='k col col-md-4 col-lg '>
                   <span className=''>Invoice Preview</span>
@@ -101,9 +101,9 @@ function Dashboard() {
               </div>
             </div>
 
-            <div className='customer-pre col col-md-10 col-lg-2 col-sm-12 shadow'>
+            <div className='customer-pre col col-md-10 col-lg-3 col-sm-12 shadow'>
               <div className='text-center pt-3'>Customer Preview</div>
-              <hr />
+              <hr /><br /> 
               <div><Piechart /></div>
               <div className='text-center'>New Customer this Month</div>
               <hr />

@@ -1,85 +1,105 @@
-.invoice, .payment,.quote,.due{
-    border: 2px solid black;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    background-color: white;
 
+.invoice, .payment,.quote,.due{
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+
+
+}
+.set{
+  padding-left: 40px;
+}
+.customer-pre{
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  justify-content: center;
 
 }
 .backColor{
-    background-color: whitesmoke;
-    height: 100%;
+  background-color: whitesmoke;
+  height: 100%;
 }
 .x{
-    /* float: right; */
-    width: 90%;
-    margin-left: 5%;
-    font-weight: bold;
-    font-size: x-large;
+  /* float: right; */
+  width: 90%;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: x-large;
 }
 .p{
-    /* justify-content: center; */
-    width: 90%;
-    margin-left: 5%;
+  /* justify-content: center; */
+  width: 90%;
+  margin-left: 5%;
 }
 .ro-2-perc{
-    float: right;
+  float: right;
 }
 .progress-line {
-    margin-top: 7px;
-    height: 10px;
-    width: 100%;
-    background-color: #cdcdcd;
-    border-radius: 50px;
-    position: relative;
+  margin-top: 7px;
+  height: 10px;
+  width: 100%;
+  background-color: #cdcdcd;
+  border-radius: 50px;
+  position: relative;
 }
 
 
 .progress-line span {
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: left;
-    transform-origin: left;
-    -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-    height: 100%;
-    border-radius: 50px;
-    position: absolute;
-    background-color: rgb(233, 157, 14);
-    transition: 1s all;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: left;
+  transform-origin: left;
+  -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  height: 100%;
+  border-radius: 50px;
+  position: absolute;
+  background-color: rgb(233, 157, 14);
+  transition: 1s all;
 }
 
 .progress-line span.animate {
-    -webkit-animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
-    animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+  -webkit-animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
 @-webkit-keyframes showText {
-    100% {
-        opacity: 1;
-    }
+  100% {
+      opacity: 1;
+  }
 }
 
 @keyframes showText {
-    100% {
-        opacity: 1;
-    }
+  100% {
+      opacity: 1;
+  }
 }
 
 @-webkit-keyframes animate {
-    100% {
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
+  100% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
 }
 
 @keyframes animate {
-    100% {
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
+  100% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
 }
+
+
+
+/* new css for semicircle */
+/* @import "compass/css3";  */
+
 
 
 .admin-table {

@@ -1,11 +1,13 @@
-/* *{
+*{
     margin:0px;
-    padding:0;
+    
     text-decoration: none;
-} */
+} *
+
 .container-fluid{
     display:flex;
     padding: 0;
+    height: 100%;
     /* margin-right: 0px;
     padding-right: 0px;
     margin-left: 0px;
@@ -27,8 +29,8 @@ main{
 .sidebar{
     background: whitesmoke;
     color: #fff;
-    min-height: 100vh;
     width: 200px;
+    min-height: 100vh;
     transition: all 0.5s;
     border-right: 1px solid black;
 }
